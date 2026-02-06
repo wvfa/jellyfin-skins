@@ -1,0 +1,32 @@
+[
+  {
+    "name": "Catppuccin Mocha",
+    "defaultCss": "@import url('https://fonts.googleapis.com/css2?family=Geom:ital,wght@0,300..900;1,300..900&display=swap');\n:root { --accent: 133, 100, 255; --backdropBlur: blur(0px); --detailGradient: linear-gradient(54deg, rgba(var(--tint),1) 0%, rgba(var(--tint),0.7) 100%); --loginGradient: linear-gradient(180deg, rgba(var(--tint),1) 0%, rgba(var(--tint),0.7) 100%); --tint: 17,14,30; --tint2: 71,51,145; --rounding: 0.8em; }\nbody { font-family: 'Geom', sans-serif; font-size: 1.8vh; color: #cdd6f4; background-color: #1e1e2e; } a { color: #f5c2e7; } a:hover { color: #cdd6f4; }",
+    "previews": [{"url":"https://i.imgur.com/0n7u3Rp.png"}],
+    "categories": [{"name":"Accent Color","options":["#8564ff","#cdd6f4","#f5c2e7"]}]
+  },
+  {
+    "name": "ElegantFin",
+    "defaultCss": "body { font-family: 'Geom', sans-serif; font-size: 1.8vh; color: #ffffff; background-color: #111111; } .textActionButton:hover { color: rgb(133,100,255); }",
+    "previews": [{"url":"https://i.imgur.com/jU6B9eR.png"}],
+    "categories": [{"name":"Accent Color","options":["#8564ff","#ffffff","#111111"]}]
+  },
+  {
+    "name": "Finimalism 11",
+    "defaultCss": "body { font-family: 'Roboto', sans-serif; background-color: #181818; color: #e0e0e0; } h1,h2,h3 { color: #ffffff; } a { color: #61afef; } a:hover { color: #c678dd; }",
+    "previews": [{"url":"https://i.imgur.com/VQHj8LB.png"}],
+    "categories": [{"name":"Accent Color","options":["#61afef","#c678dd","#ffffff"]}]
+  },
+  {
+    "name": "Zesty Gray",
+    "defaultCss": "body { font-family: 'Segoe UI', sans-serif; background-color: #2b2b2b; color: #dddddd; } a, .textActionButton { color: #ff6c6b; } a:hover, .textActionButton:hover { color: #ffffff; }",
+    "previews": [{"url":"https://i.imgur.com/Y3eX0qS.png"}],
+    "categories": [{"name":"Accent Color","options":["#ff6c6b","#dddddd","#2b2b2b"]}]
+  },
+  {
+    "name": "Zombie Revived",
+    "defaultCss": "body { font-family: 'Arial', sans-serif; background-color: #0d0d0d; color: #f0f0f0; } a, .textActionButton { color: #e63946; } a:hover, .textActionButton:hover { color: #ffffff; }",
+    "previews": [{"url":"https://i.imgur.com/Wb7vWw9.png"}],
+    "categories": [{"name":"Accent Color","options":["#e63946","#f0f0f0","#0d0d0d"]}]
+  }
+]
