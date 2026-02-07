@@ -1,52 +1,140 @@
 [
   {
     "name": "Catppuccin Mocha",
+    "description": "A soothing pastel theme for Jellyfin with Catppuccin Mocha colors",
     "defaultCss": "@import url(\"https://fonts.googleapis.com/css2?family=Geom:ital,wght@0,300..900;1,300..900&display=swap\");\n:root { --accent: 133,100,255; --tint: 17,14,30; }\nbody { font-family: \"Geom\", sans-serif; font-size: 1.8vh; color: #cdd6f4; background-color: #1e1e2e; background-image: url(\"/SkinManager/images/catppuccin.webp\"); background-size: cover; background-position: center; background-repeat: no-repeat; }\na { color: #f5c2e7; }\na:hover { color: #cdd6f4; }",
     "previews": [
-      { "url": "https://github.com/catppuccin/jellyfin/blob/main/assets/mocha.webp?raw=true" }
+      { 
+        "name": "Mocha Theme Preview",
+        "url": "https://github.com/catppuccin/jellyfin/blob/main/assets/mocha.webp?raw=true" 
+      }
     ],
     "categories": [
-      { "name": "Accent Color", "options": ["#8564ff", "#cdd6f4", "#f5c2e7"] }
+      { 
+        "name": "Customization", 
+        "options": [
+          {
+            "type": "colorPicker",
+            "name": "Accent Color",
+            "description": "Choose your preferred accent color",
+            "css": "a, .textActionButton { color: $ !important; }",
+            "default": "#8564ff",
+            "mode": "hex"
+          }
+        ]
+      }
     ]
   },
   {
     "name": "ElegantFin",
-    "defaultCss": "body { font-family: \"Geom\", sans-serif; font-size: 1.8vh; color: #ffffff; background-color: #111111; background-image: url(\"/SkinManager/images/elegantfin.webp\"); background-size: cover; background-position: center; background-repeat: no-repeat; } .textActionButton:hover { color: rgb(133,100,255); }",
+    "description": "An elegant and modern theme for Jellyfin",
+    "defaultCss": "@import url(\"https://fonts.googleapis.com/css2?family=Geom:ital,wght@0,300..900;1,300..900&display=swap\");\nbody { font-family: \"Geom\", sans-serif; font-size: 1.8vh; color: #ffffff; background-color: #111111; background-image: url(\"/SkinManager/images/elegantfin.webp\"); background-size: cover; background-position: center; background-repeat: no-repeat; }\n.textActionButton:hover { color: rgb(133,100,255); }",
     "previews": [
-      { "url": "https://github.com/lscambo13/ElegantFin/blob/main/Previews/previews-v25.08.02/optimized/desktop/1.%20Homepage.webp?raw=true" }
+      { 
+        "name": "ElegantFin Preview",
+        "url": "https://github.com/lscambo13/ElegantFin/blob/main/Previews/previews-v25.08.02/optimized/desktop/1.%20Homepage.webp?raw=true" 
+      }
     ],
     "categories": [
-      { "name": "Accent Color", "options": ["#8564ff", "#ffffff", "#111111"] }
+      { 
+        "name": "Customization", 
+        "options": [
+          {
+            "type": "colorPicker",
+            "name": "Accent Color",
+            "description": "Choose your preferred accent color",
+            "css": ".textActionButton:hover { color: $ !important; }",
+            "default": "#8564ff",
+            "mode": "hex"
+          }
+        ]
+      }
     ]
   },
   {
     "name": "Finimalism 11",
-    "defaultCss": "body { font-family: \"Roboto\", sans-serif; color: #e0e0e0; background-color: #181818; background-image: url(\"/SkinManager/images/finimalism.png\"); background-size: cover; background-position: center; background-repeat: no-repeat; } h1,h2,h3 { color: #ffffff; } a { color: #61afef; } a:hover { color: #c678dd; }",
+    "description": "A minimalist theme inspired by Windows 11",
+    "defaultCss": "@import url(\"https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap\");\nbody { font-family: \"Roboto\", sans-serif; color: #e0e0e0; background-color: #181818; background-image: url(\"/SkinManager/images/finimalism.png\"); background-size: cover; background-position: center; background-repeat: no-repeat; }\nh1,h2,h3 { color: #ffffff; }\na { color: #61afef; }\na:hover { color: #c678dd; }",
     "previews": [
-      { "url": "https://private-user-images.githubusercontent.com/66086488/540159009-979bf451-53f6-43f9-8032-fc0093ec1736.png" }
+      { 
+        "name": "Finimalism 11 Preview",
+        "url": "https://private-user-images.githubusercontent.com/66086488/540159009-979bf451-53f6-43f9-8032-fc0093ec1736.png" 
+      }
     ],
     "categories": [
-      { "name": "Accent Color", "options": ["#61afef", "#c678dd", "#ffffff"] }
+      { 
+        "name": "Customization", 
+        "options": [
+          {
+            "type": "colorPicker",
+            "name": "Link Color",
+            "description": "Choose your preferred link color",
+            "css": "a { color: $ !important; }",
+            "default": "#61afef",
+            "mode": "hex"
+          },
+          {
+            "type": "colorPicker",
+            "name": "Link Hover Color",
+            "description": "Choose your preferred link hover color",
+            "css": "a:hover { color: $ !important; }",
+            "default": "#c678dd",
+            "mode": "hex"
+          }
+        ]
+      }
     ]
   },
   {
     "name": "Zesty Gray",
-    "defaultCss": "body { font-family: \"Segoe UI\", sans-serif; color: #dddddd; background-color: #2b2b2b; background-image: url(\"/SkinManager/images/zesty.jpg\"); background-size: cover; background-position: center; background-repeat: no-repeat; } a, .textActionButton { color: #ff6c6b; } a:hover, .textActionButton:hover { color: #ffffff; }",
+    "description": "A clean gray theme with zesty accents",
+    "defaultCss": "body { font-family: \"Segoe UI\", sans-serif; color: #dddddd; background-color: #2b2b2b; background-image: url(\"/SkinManager/images/zesty.jpg\"); background-size: cover; background-position: center; background-repeat: no-repeat; }\na, .textActionButton { color: #ff6c6b; }\na:hover, .textActionButton:hover { color: #ffffff; }",
     "previews": [
-      { "url": "https://github.com/stpnwf/ZestyTheme/raw/main/images/home.jpg" }
+      { 
+        "name": "Zesty Gray Preview",
+        "url": "https://github.com/stpnwf/ZestyTheme/raw/main/images/home.jpg" 
+      }
     ],
     "categories": [
-      { "name": "Accent Color", "options": ["#ff6c6b", "#dddddd", "#2b2b2b"] }
+      { 
+        "name": "Customization", 
+        "options": [
+          {
+            "type": "colorPicker",
+            "name": "Accent Color",
+            "description": "Choose your preferred accent color",
+            "css": "a, .textActionButton { color: $ !important; }",
+            "default": "#ff6c6b",
+            "mode": "hex"
+          }
+        ]
+      }
     ]
   },
   {
     "name": "Zombie Revived",
-    "defaultCss": "body { font-family: \"Arial\", sans-serif; color: #f0f0f0; background-color: #0d0d0d; background-image: url(\"/SkinManager/images/zombie.png\"); background-size: cover; background-position: center; background-repeat: no-repeat; } a, .textActionButton { color: #e63946; } a:hover, .textActionButton:hover { color: #ffffff; }",
+    "description": "A dark apocalyptic theme for Jellyfin",
+    "defaultCss": "body { font-family: \"Arial\", sans-serif; color: #f0f0f0; background-color: #0d0d0d; background-image: url(\"/SkinManager/images/zombie.png\"); background-size: cover; background-position: center; background-repeat: no-repeat; }\na, .textActionButton { color: #e63946; }\na:hover, .textActionButton:hover { color: #ffffff; }",
     "previews": [
-      { "url": "https://github.com/MakD/zombie-release/raw/main/img/desktop/login.png" }
+      { 
+        "name": "Zombie Revived Preview",
+        "url": "https://github.com/MakD/zombie-release/raw/main/img/desktop/login.png" 
+      }
     ],
     "categories": [
-      { "name": "Accent Color", "options": ["#e63946", "#f0f0f0", "#0d0d0d"] }
+      { 
+        "name": "Customization", 
+        "options": [
+          {
+            "type": "colorPicker",
+            "name": "Accent Color",
+            "description": "Choose your preferred accent color",
+            "css": "a, .textActionButton { color: $ !important; }",
+            "default": "#e63946",
+            "mode": "hex"
+          }
+        ]
+      }
     ]
   }
 ]
